@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FAQ: Football Tickets</title>
+        <style type="text/css">
+            button {
+                color: white;
+                background-color: #73000A;
+                border:1px #73000A solid;
+                padding: 10px;
+            }
+            button:hover {
+                background-color: white;
+                color: #73000A;
+                border: 1px #73000A solid;
+                cursor: pointer;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            video {
+                display: block;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+
+            /* Style the buttons that are used to open and close the accordion panel */
+            .accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            }
+
+            /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+            .active, .accordion:hover {
+            background-color: #ccc;
+            }
+
+            /* Style the accordion panel. Note: hidden by default */
+            .panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <header>
+            <div id="logo-top">
+                <img src="usc_logo.svg" alt="Garnet and black logo of the University of South Carolina" width="300">
+            </div>
+            <div id="h2-top">
+                <h2>South Carolina Football</h2> 
+            </div>
+            <!--Navigation-->
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">TICKETMASTER</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="body-container">
+            
+            <h1 id="body-title">Advice For Freshmen</h1>
+
+            <div class="text-container">
+                    <h2 id="body-title">FAQ: Football Tickets</h2>
+
+                    <div>
+                        <button class="accordion">Where do I request my ticket?</button>
+                        <div class="panel">
+                        <p>Football ticket requests can be placed through the University of South Carolina Ticketmaster, which is linked to your student email. When ticketing opens for an upcoming game, students will receive an email detailing the ticketing process for that game.
+                            Once logged in to Ticketmaster, claims can be placed on the “Claim Tickets” page. Tickets are sorted by sports on this page.</p>
+                        </div>
+                    </div>  
+
+                    <div>
+                        <button class="accordion">How are tickets assigned?</button>
+                        <div class="panel">
+                        <p>
+                            Tickets are assigned based on each student’s point count. Students with more points are prioritized for receiving lower-level tickets. 
+                        </p>
+                        </div>
+                    </div> 
+
+                    <div>
+                        <button class="accordion">How can I earn points?</button>
+                        <div class="panel">
+                        <p>
+                            You can earn points by attending other major sporting events (such as basketball, baseball, swimming). Additionally, enrollment in the Student Gamecock Club will grant you three points.                        </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="accordion">What happens if I do not attend a game that I claim a ticket for?</button>
+                        <div class="panel">
+                        <p>
+                           If you fail to attend a game in which you have claimed a ticket, you can be punished. For the first event missed you will receive a warning, for the second game missed you will lose ticket privileges for two weeks, and three games missed will result in the loss of ticket privileges for the remainder of the academic year. 
+                        </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="accordion">Where are my tickets stored?</button>
+                        <div class="panel">
+                        <p>
+                            Claimed tickets are stored on your UofSC Ticketmaster account. Tickets for future athletic events can be found and managed on the Ticketmaster “Manage Tickets” page.  
+                            You can add your tickets to your phone's wallet for offline access.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="accordion">Where do I enter the stadium if I have a lower-level ticket?</button>
+                        <div class="panel">
+                        <p>
+                            Students with lower-level tickets can <strong>only</strong> enter through the northeast student entrance gate of Williams-Bryce stadium. 
+                        </p>
+                        <img src="stadium.jpg" alt="Williams Bryce stadium map" style="margin: auto;">
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="accordion">Can I sell my ticket?</button>
+                        <div class="panel">
+                        <p>
+                            Selling student tickets is <strong>NOT</strong> permitted. Students caught selling student tickets or using another student’s ticket are violating student ticket policy, and as a result may be suspended from all athletic events for a calendar year, lose reward points, be referred to the Office of Student Judicial Programs, and be referred to UofSC Police.
+                        </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="accordion">How do I claim my ticket?</button>
+                        <div class="panel">
+                        <p>
+                            You can claim your ticket through the official South Carolina Rewards App or your associated Ticketmaster account. If you are offered a ticket to an event, you have 24 hours to claim your ticket, or it will be offered to the next student in line. 
+                        </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="accordion">How do points roll over year-to-year?</button>
+                        <div class="panel">
+                        <p>
+                            10% of points gained in a previous academic year will roll over. 
+                        </p>
+                        </div>
+                    </div>
+
+                    <h2 id="body-title">Survery: Football Tickets FAQ</h2>
+
+            </div> <!-- .text-container -->
+        </div> <!-- .body-container -->
+
+        <section>
+            <footer>
+                <div id="foot-left">
+                    <p>&copy;South Carolina Football 2022</p>
+                </div>
+                <div id="foot-icons">
+                    <ul>
+                        <li><img src="facebook.png" alt="Facebook"></li>
+                        <li><img src="instagram.png" alt="Instagram"></li>
+                        <li><img src="linkedin.png" alt="LinkedIn"></li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+    </body>
+</html>
